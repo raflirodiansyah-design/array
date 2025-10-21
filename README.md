@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="r"></script>
+    <script>
+        const names = []
+names.push("eko");
+names.push("kurniawan","khandenny");
+
+console.table(names);
+names[0]= "budi";
+
+console.table(names);
+console.info(names.length)
+    </script>
 </body>
 </html>
